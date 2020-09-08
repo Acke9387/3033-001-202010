@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.Background>
+            <ImageBrush ImageSource="https://doglime.com/wp-content/uploads/2019/07/Sheepadoodle-Old-English-Sheepdog-and-Poodle-mix.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btnClickMe" Content="Click Me" HorizontalAlignment="Left" Margin="94,72,0,0" VerticalAlignment="Top" Height="69" Width="191" IsDefault="True" IsEnabled="True" Click="Button_Click"/>
+        <TextBox x:Name="txtFavoriteColor" HorizontalAlignment="Left" Height="26" Margin="197,230,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyDown="txt_KeyDown"/>
+        <Label Content="Enter your favorite color:" HorizontalAlignment="Left" Margin="35,230,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="26" Margin="197,275,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyDown="txt_KeyDown"/>
+        <Label Content="Enter your name:" HorizontalAlignment="Left" Margin="76,275,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
