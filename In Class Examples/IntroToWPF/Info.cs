@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IntroToWPF
 {
-    class Info
+    public class Info
     {
         public string Name { get; set; }
         public string FavoriteColor { get; set; }

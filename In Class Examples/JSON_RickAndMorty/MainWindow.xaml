@@ -1,0 +1,17 @@
+﻿<Window x:Class="JSON_RickAndMorty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_RickAndMorty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF097CF0">
+        <ComboBox x:Name="cboCharacters" HorizontalAlignment="Left" Margin="29,142,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboCharacters_SelectionChanged"/>
+        <Label Content="Rick &amp; Morty Fan Page" HorizontalAlignment="Left" Margin="153,18,0,0" VerticalAlignment="Top" FontSize="48" Foreground="#FFE3F904"/>
+        <Label Content="Select a character" HorizontalAlignment="Left" Margin="29,111,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgPicture" Margin="373,130,10,10"/>
+        <Label x:Name="lblCharacterInfo" Content="" HorizontalAlignment="Left" Margin="29,210,0,0" VerticalAlignment="Top" Height="188" Width="344" Foreground="White" FontSize="22"/>
+
+    </Grid>
+</Window>
