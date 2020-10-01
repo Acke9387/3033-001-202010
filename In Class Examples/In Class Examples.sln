@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV_Example", "CSV_Example\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_RickAndMorty", "JSON_RickAndMorty\JSON_RickAndMorty.csproj", "{AD3C7111-5029-43B9-9D19-8BC63C95ECAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_GOT", "JSON_GOT\JSON_GOT.csproj", "{F1B8BA6D-B540-444A-9EDC-D6E9EE3C7E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empty_Project", "Empty_Project\Empty_Project.csproj", "{C9EA2A00-2899-4CCF-A4A2-024DB6F3826E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{AD3C7111-5029-43B9-9D19-8BC63C95ECAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3C7111-5029-43B9-9D19-8BC63C95ECAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3C7111-5029-43B9-9D19-8BC63C95ECAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B8BA6D-B540-444A-9EDC-D6E9EE3C7E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B8BA6D-B540-444A-9EDC-D6E9EE3C7E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B8BA6D-B540-444A-9EDC-D6E9EE3C7E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B8BA6D-B540-444A-9EDC-D6E9EE3C7E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EA2A00-2899-4CCF-A4A2-024DB6F3826E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EA2A00-2899-4CCF-A4A2-024DB6F3826E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EA2A00-2899-4CCF-A4A2-024DB6F3826E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EA2A00-2899-4CCF-A4A2-024DB6F3826E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
