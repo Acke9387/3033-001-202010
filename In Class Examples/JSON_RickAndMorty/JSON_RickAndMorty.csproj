@@ -58,7 +58,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CharacterInfoWindow.xaml.cs">
+      <DependentUpon>CharacterInfoWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RickAndMortyAPI.cs" />
+    <Page Include="CharacterInfoWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

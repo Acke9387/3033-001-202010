@@ -46,11 +46,17 @@ namespace JSON_RickAndMorty
         {
             Character selectedCharacter = (Character)cboCharacters.SelectedItem;
 
-            Uri uri = new Uri(selectedCharacter.image);
-            BitmapImage picture = new BitmapImage(uri);
+            CharacterInfoWindow infoWindow = new CharacterInfoWindow();
+            //infoWindow.Setup(selectedCharacter);
+            infoWindow.character = selectedCharacter;
+            infoWindow.Setup();
+            //infoWindow.Show();
+            infoWindow.ShowDialog();
+            //Uri uri = new Uri(selectedCharacter.image);
+            //BitmapImage picture = new BitmapImage(uri);
 
-            imgPicture.Source = picture;
-            lblCharacterInfo.Content = $"{selectedCharacter.name}";
+            //imgPicture.Source = picture;
+            //lblCharacterInfo.Content = $"{selectedCharacter.name}";
             //imgPicture.Source = new BitmapImage(new Uri(selectedCharacter.image));
 
         }
